@@ -5,6 +5,8 @@ import { UsersComponent } from './users.component';
 import { UserFormComponent } from './user-form.component';
 import { NotFoundComponent } from './not-found.component';
 import { PostsComponent } from './posts.component';
+import { ProductsComponent } from './products.component';
+import { ProductFormComponent } from './product-form.component';
 
 const appRoutes: Routes = [
   {
@@ -31,6 +33,14 @@ const appRoutes: Routes = [
   {
     path: 'posts',
     component: PostsComponent
+  },
+  {
+    path: 'products',
+    component: ProductsComponent
+  },
+  {
+    path: 'products/:id',
+    component: ProductFormComponent
   },
   {
     path: 'not-found',

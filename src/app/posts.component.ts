@@ -12,7 +12,7 @@ import {PostService} from './posts.service';
 @Component({
     selector: 'posts',
     template: `
-        <h1>Posts Page</h1>
+        <h1>Products available</h1>
 
         <div class="row">
             <div class="col-md-6">
