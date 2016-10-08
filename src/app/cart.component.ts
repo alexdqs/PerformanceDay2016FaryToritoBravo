@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {UserService} from './users.service';
+import { UserService } from './users.service';
 import { User } from './user';
-import {ProductService} from './products.service';
+import { ProductService } from './products.service';
 import { Product } from './product';
-import {CartService} from './cart.service';
+import { CartService } from './cart.service';
 import { Cart } from './cart';
 
 @Component({

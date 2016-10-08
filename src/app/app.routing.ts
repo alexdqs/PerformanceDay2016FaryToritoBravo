@@ -7,6 +7,7 @@ import { NotFoundComponent } from './not-found.component';
 import { PostsComponent } from './posts.component';
 import { ProductsComponent } from './products.component';
 import { ProductFormComponent } from './product-form.component';
+import { CartComponent } from './cart.component';
 
 const appRoutes: Routes = [
   {
@@ -49,10 +50,14 @@ const appRoutes: Routes = [
   {
     path: 'not-found',
     component: NotFoundComponent
-  }
+  },
+  {
+    path: 'cart',
+    component: CartComponent
+  },
   , { path: '**', component: NotFoundComponent }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
 
-export const routedComponents = [HomeComponent, UserFormComponent, NotFoundComponent, PostsComponent, ProductFormComponent];
+export const routedComponents = [HomeComponent, UserFormComponent, NotFoundComponent, PostsComponent, ProductFormComponent, CartComponent];
