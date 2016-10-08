@@ -33,6 +33,7 @@ import { Cart } from './cart';
                     </tr>
                 </tbody>
             </table>
+            <a routerLink="/cart" class="btn btn-primary">Go to Cart</a>
     `,
     styles: [`
             .clickable{
@@ -55,7 +56,10 @@ export class HomeComponent implements OnInit {
     }
 
     addToCart(product: Product) {
-    this._serviceCart.addToCart(product.id)
-            .catch(error => this.error = error);
+        var cartItem = new Cart();
+        cartItem.productId = product.id;
+        cartItem.quantity = 1;
+        this._serviceCart.addToCart(cartItem)
+        .catch(error => this.error = error);
     }
 }
