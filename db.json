@@ -36971,7 +36971,7 @@
   ],
   "shit": [
     {
-      "hola" : "hola"
+      "hola": "hola"
     }
   ],
   "products": [
@@ -36980,7 +36980,7 @@
       "name": "Galletas",
       "description": "muy nutritivas",
       "category": "food",
-      "price": 12
+      "price": 33
     },
     {
       "id": 2,
@@ -37016,6 +37016,13 @@
       "description": "maxima resolucion",
       "category": "TV",
       "price": 2000
+    },
+    {
+      "name": "Jarron",
+      "description": "muy bonito",
+      "category": "house",
+      "price": 4,
+      "id": 7
     }
   ]
 }
