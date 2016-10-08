@@ -8,7 +8,7 @@ import { Cart } from './cart';
 @Component({
     selector: 'home',
     template: `
-        <h1>Amazonfail</h1>
+        <h1>Amazonfail: Selected Products</h1>
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -28,12 +28,12 @@ import { Cart } from './cart';
                         <td>{{ product.price }}</td>
                         <td><img class="media-object img-circle" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
                         <td>
-                        <a (click)="addToCart(product)"><i class="glyphicon glyphicon-edit"></i> </a>
+                        <a (click)="addToCart(product)"><i class="glyphicon glyphicon-plus-sign"></i> </a>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <a routerLink="/cart" class="btn btn-primary">Go to Cart</a>
+            <div align=center><a routerLink="/cart" class="btn btn-primary">Go to Cart</a></div>
     `,
     styles: [`
             .clickable{
