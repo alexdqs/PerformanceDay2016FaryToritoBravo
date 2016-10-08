@@ -33,7 +33,7 @@ import { Cart } from './cart';
                     </tr>
                 </tbody>
             </table>
-            <a routerLink="/cart" class="btn btn-primary">Go to Cart</a>
+            <div align=center><a routerLink="/cart" class="btn btn-primary">Go to Cart</a></div>
     `,
     styles: [`
             .clickable{
