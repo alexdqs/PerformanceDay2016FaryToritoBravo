@@ -36968,5 +36968,54 @@
       "title": "ipsam aperiam voluptates qui",
       "completed": false
     }
+  ],
+  "shit": [
+    {
+      "hola" : "hola"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Galletas",
+      "description": "muy nutritivas",
+      "category": "food",
+      "price": 12
+    },
+    {
+      "id": 2,
+      "name": "iPhone 9",
+      "description": "el mejor",
+      "category": "phone",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "name": "Nexus 5X",
+      "description": "muy viejo ya",
+      "category": "phone",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Comida perro",
+      "description": "el no lo har",
+      "category": "food",
+      "price": 4
+    },
+    {
+      "id": 5,
+      "name": "Samsung S9",
+      "description": "",
+      "category": "phone",
+      "price": 900
+    },
+    {
+      "id": 6,
+      "name": "Flat screen sdsjcdfje 100",
+      "description": "maxima resolucion",
+      "category": "TV",
+      "price": 2000
+    }
   ]
 }

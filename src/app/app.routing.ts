@@ -39,6 +39,10 @@ const appRoutes: Routes = [
     component: ProductsComponent
   },
   {
+    path: 'products/new',
+    component: ProductFormComponent
+  },
+  {
     path: 'products/:id',
     component: ProductFormComponent
   },
@@ -51,4 +55,4 @@ const appRoutes: Routes = [
 
 export const routing = RouterModule.forRoot(appRoutes);
 
-export const routedComponents = [HomeComponent, UserFormComponent, NotFoundComponent, PostsComponent];
+export const routedComponents = [HomeComponent, UserFormComponent, NotFoundComponent, PostsComponent, ProductFormComponent];
