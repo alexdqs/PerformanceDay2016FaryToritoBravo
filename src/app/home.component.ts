@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import {ProductService} from './products.service';
 import { Product } from './product';
+import {CartService} from './cart.service';
+import { Cart } from './cart';
 
 @Component({
     selector: 'home',
@@ -12,16 +14,22 @@ import { Product } from './product';
                     <tr>
                         <th>Name</th>
                         <th>Description</th>
-                        <th>Price</th>
                         <th>Category</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>Add to Cart</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr *ngFor="let product of products">
                         <td>{{ product.name }}</td>
                         <td>{{ product.description }}</td>
-                        <td>{{ product.price }}</td>
                         <td>{{ product.category }}</td>
+                        <td>{{ product.price }}</td>
+                        <td><img class="media-object img-circle" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
+                        <td>
+                        <a (click)="addToCart(product)"><i class="glyphicon glyphicon-edit"></i> </a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -31,7 +39,7 @@ import { Product } from './product';
                 cursor:pointer;
             }
         `],
-    providers: [ProductService]
+    providers: [ProductService, CartService]
 })
 
 export class HomeComponent implements OnInit { 
@@ -39,12 +47,15 @@ export class HomeComponent implements OnInit {
     products: Product[];
     error: any;
 
-    constructor(private _service: ProductService,  private router: Router) { }
+    constructor(private _serviceProduct: ProductService, private _serviceCart: CartService, private router: Router) { }
     ngOnInit() {
-        this._service.getProducts()
+        this._serviceProduct.getProductsMin()
             .then(products => this.products = products)
             .catch(error => this.error = error);
     }
 
-
+    addToCart(product: Product) {
+    this._serviceCart.addToCart(product.id)
+            .catch(error => this.error = error);
+    }
 }

@@ -18,6 +18,20 @@ export class ProductService {
             .catch(this.handleError);
     }
 
+    getProductsMin(): Promise<Product[]> {
+        return this.http.get(this._url)
+            .toPromise()
+            .then(resp => { 
+                var results = resp.json() as Product[];
+                var resulFilter = results.filter(
+                    function(product : Product) {
+                        return product.price > 200;
+                     })           
+                return resulFilter as Product[]; 
+            })
+            .catch(this.handleError);
+    }
+
     getProduct(productId: string): Promise<Product> {
         return this.getProducts().then((products => {
             var product = products.find(product => product.id == productId);
