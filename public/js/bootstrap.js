@@ -2375,3 +2375,34 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+
+// *** LOGIN
+
+$(".loginButton").click(function()
+{
+    Login();
+});
+
+var isLogged = false;
+function Login()
+{
+  if (document.getElementById('userField').value == 'admin' && document.getElementById('passwordField').value == '0000')
+  {
+    isLogged = true;
+    document.getElementById('loginSection').style.display = 'none';
+    document.getElementById('productsSection').style.display = 'inline';
+  }
+  else
+  {
+      window.alert('Invalid identification');
+  }
+  /*if ($("#userField").value== 'admin' && $("#passwordField").Value == '0000')
+  {
+    window.alert('Valid identification');
+  }
+  else
+  {
+    window.alert('Invalid identification');
+  } */
+}

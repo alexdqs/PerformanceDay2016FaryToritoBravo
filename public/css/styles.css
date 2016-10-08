@@ -3,3 +3,39 @@ body { margin: 2em; }
 body, input[text], button { color: #888; font-family: 'Trebuchet MS', Cambria, Georgia; }
 button { padding: 0.2em; font-size: 14px}
 * { font-family: 'Trebuchet MS'; }
+
+.clearFix
+{
+    clear: both;
+    height: 10px;
+}
+
+#loginSection
+{
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+    padding: 20px 20px 50px 20px;
+}
+
+.loginText
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #888888;
+    float:left;
+    width: 200px;
+}
+
+.loginField, input
+{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px!important;
+    border-color: #00FF00;
+    float: left;
+}
+
+#productsSection
+{
+    display: none;
+}

@@ -6,37 +6,52 @@ import { Product } from './product';
 @Component({
     selector: 'products',
     template: `
-        <h1>Products</h1>
-        <a routerLink="/products/new" class="btn btn-primary">Add Product</a>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                    <th>Category</th>
-                    <th>Image</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let product of products">
-                    <td>{{ product.name }}</td>
-                    <td>{{ product.description }}</td>
-                    <td>{{ product.category }}</td>
-                    <td>{{ product.price }}</td>
-                    <td><img height=80 width=80 *ngIf="product.image" src="{{ product.image }}" alt="...">
-                        <img class="media-object img-circle" *ngIf="product.image == null" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
-                    <td>
-                       <a (click)="editProduct(product)"><i class="glyphicon glyphicon-edit"></i> </a>
-                    </td>
-                    <td>
-                        <i class="glyphicon glyphicon-remove clickable" (click)="deleteProduct(product)" ></i>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="loginSection">
+            <div>
+                <div class="loginText">User</div>
+                <div class="loginField"><input id="userField"></div>
+            </div>
+            <div class="clearFix"></div>
+            <div>
+                <div class="loginText">Password</div>
+                <div class="loginFiled"><input id="passwordField" class="userField" type="password"></div>
+            </div>
+            <div class="clearFix"></div>
+            <button id="loginButton" class="LoginButton" onclick="javascript:Login();"   >Login</button>
+        </div>
+        <div id="productsSection">
+            <h1>Products</h1>
+            <a routerLink="/products/new" class="btn btn-primary">Add Product</a>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Image</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of products">
+                        <td>{{ product.name }}</td>
+                        <td>{{ product.description }}</td>
+                        <td>{{ product.category }}</td>
+                        <td>{{ product.price }}</td>
+                        <td><img height=80 width=80 *ngIf="product.image" src="{{ product.image }}" alt="...">
+                            <img class="media-object img-circle" *ngIf="product.image == null" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
+                        <td>
+                        <a (click)="editProduct(product)"><i class="glyphicon glyphicon-edit"></i> </a>
+                        </td>
+                        <td>
+                            <i class="glyphicon glyphicon-remove clickable" (click)="deleteProduct(product)" ></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     `,
     styles: [`
             .clickable{
