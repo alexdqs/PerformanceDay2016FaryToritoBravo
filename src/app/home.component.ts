@@ -8,7 +8,7 @@ import { Cart } from './cart';
 @Component({
     selector: 'home',
     template: `
-        <h1>Amazonfail</h1>
+        <h1>Amazonfail: Selected Products</h1>
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -33,6 +33,7 @@ import { Cart } from './cart';
                     </tr>
                 </tbody>
             </table>
+            <div align=center><a routerLink="/cart" class="btn btn-primary">Go to Cart</a></div>
     `,
     styles: [`
             .clickable{
@@ -55,7 +56,10 @@ export class HomeComponent implements OnInit {
     }
 
     addToCart(product: Product) {
-    this._serviceCart.addToCart(product.id)
-            .catch(error => this.error = error);
+        var cartItem = new Cart();
+        cartItem.productId = product.id;
+        cartItem.quantity = 1;
+        this._serviceCart.addToCart(cartItem)
+        .catch(error => this.error = error);
     }
 }
