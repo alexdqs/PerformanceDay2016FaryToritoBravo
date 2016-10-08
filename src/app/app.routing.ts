@@ -47,14 +47,15 @@ const appRoutes: Routes = [
     path: 'products/:id',
     component: ProductFormComponent
   },
-  {
-    path: 'not-found',
-    component: NotFoundComponent
-  },
+
   {
     path: 'cart',
     component: CartComponent
   },
+  {
+    path: 'not-found',
+    component: NotFoundComponent
+  }
   , { path: '**', component: NotFoundComponent }
 ];
 
