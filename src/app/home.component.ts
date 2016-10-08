@@ -59,6 +59,7 @@ export class HomeComponent implements OnInit {
         var cartItem = new Cart();
         cartItem.productId = product.id;
         cartItem.quantity = 1;
+        cartItem.userId = "";
         this._serviceCart.addToCart(cartItem)
         .catch(error => this.error = error);
     }
