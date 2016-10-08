@@ -8,7 +8,7 @@ import { Cart } from './cart';
 @Component({
     selector: 'home',
     template: `
-        <h1>Amazonfail</h1>
+        <h1>Amazonfail: Selected Products</h1>
             <table class="table table-bordered">
                 <thead>
                     <tr>
