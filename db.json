@@ -37018,118 +37018,14 @@
       "category": "house",
       "price": 4,
       "id": 7
-    }
-    ,
+    },
     {
-      "name": "Teclado colores",
-      "description": "Razer BlackWidow Chroma - Teclado mecánico gaming (retroiluminación RGB, programable, con 5 teclas macro) - QWERTY español",
-      "category": "devices",
-      "price": 142,
+      "name": "iphone 7",
+      "description": "amazing",
+      "category": "phone",
+      "image": "http://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-select-2016?wid=500&hei=702&fmt=png-alpha&qlt=95&.v=1471651056976",
+      "price": 900,
       "id": 8
-    }
-    ,
-    {
-      "name": "Lenovo Ideapad",
-      "description": "Lenovo Ideapad 300-15ISK - Portátil de 15.6 (Intel Core i7-6500U, memoria RAM de 8 GB, HDD de 1 TB, Intel HD Graphics 520, Windows 10 Home), negro brillante - Teclado QWERTY Español",
-      "category": "laptops",
-      "price": 599,
-      "id": 8
-    }
-    ,
-    {
-      "name": "ASUS Z220ICUK-GC016X",
-      "description": "Ordenador de sobremesa todo en uno de 21.5- ,Intel #2292",
-      "category": "laptop",
-      "price": 798,
-      "id": 9
-    }
-    ,
-    {
-      "name": "Benq RL2460HT",
-      "description": " Monitor de 24 (1920 x 1080p, LED, TN, 250 cd/m2), color negro",
-      "category": "monitors",
-      "price": 179,
-      "id": 10
-    }
-    ,
-    {
-      "name": "X-Loop Aurora",
-      "description": "Gafas de Sol Polarizadas - Deporte - Esqui - Ciclismo - UV400 (UVA y UVB)",
-      "category": "sunglasses",
-      "price": 50,
-      "id":11 
-    }
-    ,
-    {
-      "name": "ASPIRADOR NASAL PREMIUM",
-      "description": "ASPIRADOR NASAL PREMIUM para Bebés: Silicón suave, boquilla que no irrita, lavable y reusable. No necesita filtro, Aspirador Nasal de Hospital para Congestión Nasal en los Bebés",
-      "category": "medicine",
-      "price": 13,
-      "id": 12
-    }
-    ,
-    {
-      "name": "Riñonera,EOTW",
-      "description": "Riñonera,EOTW Cinturón deportivo Ultra-delgado y ligero,elástico & ajustable, Compatible con iPhone 6s/6 plus/5s/SE, Samsung Galaxy S6/edge, pegado al cuerpo para correr,viaje,senderismo,golf, acampada,ciclismo",
-      "category": "sports",
-      "price": 22,
-      "id": 13
-    }
-    ,
-    {
-      "name": "EOTW Riñonera",
-      "description": "EOTW Riñoneras para llevar pasaporte, cargador, gafas de sol y teléfonos hasta 6 pulgadas ,Cinturón deportivo Perfecto para viajar, comprar, encalada, caminar con el perro, correr, ciclismo.",
-      "category": "sports",
-      "price": 12,
-      "id": 14
-    }
-    ,
-    {
-      "name": "NatureFun acampa",
-      "description": "NatureFun acampa Hamaca Accesorios Suspensión del sistema Hamaca árbol correas 2000+ libras de alta resistencia con 36 Loops, 100% poliéster, paquete de 2-n estiramiento",
-      "category": "sports",
-      "price": 17,
-      "id": 15
-    }
-    ,
-    {
-      "name": "Duduma Lente",
-      "description": "Duduma Lente Antirreflejante Completo Aviador UV400 Gafas de Sol con Diseño de Moda Retro Para Hombre y Para Mujer",
-      "category": "sunglasses",
-      "price": 15,
-      "id": 16
-    }
-    ,
-    {
-      "name": "EAGET V90 de doble uso Carcasa",
-      "description": "EAGET V90 de doble uso Carcasa de metal de alta velocidad USB 3.0 OTG Flash Drive con Diseño Llavero para Smartphones / tabletas / PC",
-      "category": "devices",
-      "price": 9,
-      "id":17 
-    }
-    ,
-    {
-      "name": "WinnerGear",
-      "description": "WinnerGear - MONTAR Soporte Universal salpicadero del parabrisas de Coche para Teléfono Móvil",
-      "category": "cars",
-      "price": 17,
-      "id": 18
-    }
-    ,
-    {
-      "name": "Zookki Accesorio para GoPro",
-      "description": "Zookki Accesorio para GoPro Hero 5 4 3+ 3 2 1 Black Silver Kit de Accesorios para GoPro 4 3+ 3 2 1 Negro Plata SJ4000 SJ5000 SJ6000, Juego de Accesorios de la Cámara para GoPro Hero4 Hero3+ Hero3 Hero2",
-      "category": "GoPro",
-      "price": 12,
-      "id": 19
-    }
-    ,
-    {
-      "name": "Ecandy 3 x 3 m ",
-      "description": "Ecandy 3 x 3 m 300 LED enlazable diseño de cuerdas Cortinas de hadas de luz ideal para la boda de interior al aire libre del partido del hogar jardín de la Navidad (blanco cálido) [Clase de eficiencia ",
-      "category": "house",
-      "price": 200,
-      "id": 20
     }
   ]
 }

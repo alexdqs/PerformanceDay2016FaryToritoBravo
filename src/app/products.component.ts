@@ -26,7 +26,8 @@ import { Product } from './product';
                     <td>{{ product.description }}</td>
                     <td>{{ product.category }}</td>
                     <td>{{ product.price }}</td>
-                    <td><img class="media-object img-circle" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
+                    <td><img height=80 width=80 *ngIf="product.image" src="{{ product.image }}" alt="...">
+                        <img class="media-object img-circle" *ngIf="product.image == null" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
                     <td>
                        <a (click)="editProduct(product)"><i class="glyphicon glyphicon-edit"></i> </a>
                     </td>
