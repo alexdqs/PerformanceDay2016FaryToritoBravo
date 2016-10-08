@@ -1,13 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {ProductService} from './products.service';
+import { ProductService } from './products.service';
 import { Product } from './product';
+import { PricePipe } from './pricePipe';
 
 @Component({
     selector: 'products',
     template: `
         <h1>Products</h1>
         <a routerLink="/products/new" class="btn btn-primary">Add Product</a>
+        <div width=300>  
+        <p>
+        0€
+            <input type="range" min="0" max="2000" [(ngModel)]="sliderValue" />
+        2000€
+        </p>
+        <span>Filtered price: {{ sliderValue }}€</span>
+
+        </div>  
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -21,7 +31,7 @@ import { Product } from './product';
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let product of products">
+                <tr *ngFor="let product of (products | PricePipe:sliderValue)">
                     <td><img height=80 width=80 *ngIf="product.image" src="{{ product.image }}" alt="...">
                         <img class="media-object img-circle" *ngIf="product.image == null" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
                     <td>{{ product.name }}</td>
@@ -48,8 +58,9 @@ import { Product } from './product';
 
 
 export class ProductsComponent implements OnInit {
-    products: Product[];
+    products: Product[] = [];
     error: any;
+    sliderValue:number = 20;
 
     constructor(private _service: ProductService,  private router: Router) { }
 
