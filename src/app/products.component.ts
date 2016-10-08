@@ -15,6 +15,7 @@ import { Product } from './product';
                     <th>Description</th>
                     <th>Price</th>
                     <th>Category</th>
+                    <th>Image</th>
                     <th>Edit</th>
                     <th>Delete</th>
                 </tr>
@@ -23,8 +24,9 @@ import { Product } from './product';
                 <tr *ngFor="let product of products">
                     <td>{{ product.name }}</td>
                     <td>{{ product.description }}</td>
-                    <td>{{ product.price }}</td>
                     <td>{{ product.category }}</td>
+                    <td>{{ product.price }}</td>
+                    <td><img class="media-object img-circle" src="http://lorempixel.com/80/80/technics?random={{ product.price }}" alt="..."></td>
                     <td>
                        <a (click)="editProduct(product)"><i class="glyphicon glyphicon-edit"></i> </a>
                     </td>
