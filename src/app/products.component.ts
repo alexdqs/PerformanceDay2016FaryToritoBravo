@@ -8,15 +8,6 @@ import { PricePipe } from './pricePipe';
     selector: 'products',
     template: `
         <h1>Products</h1>
-        <a routerLink="/products/new" class="btn btn-primary">Add Product</a>
-        <div width=300>  
-            <p>
-            0€
-                <input type="range" min="0" max="2000" [(ngModel)]="sliderValue" />
-            2000€
-            </p>
-            <span>Filtered price: {{ sliderValue }}€</span>
-        </div> 
         <div id="loginSection">
             <div>
                 <div class="loginText">User</div>
@@ -31,7 +22,17 @@ import { PricePipe } from './pricePipe';
             <button id="loginButton" class="LoginButton" onclick="javascript:Login();"   >Login</button>
         </div>
         <div id="productsSection"> 
-        <table class="table table-bordered">
+        <a routerLink="/products/new" class="btn btn-primary">Add Product</a>
+        <div style="width:400px;margin-top:20px;margin-bottom:20px">  
+            <div style="float:left">
+            0€
+            </div>
+            <div style="float:right">2000€</div>
+                <div style="clear:both"><input type="range" min="0" max="2000" [(ngModel)]="sliderValue" /></div>
+            
+            <div style="clear:both"><span>Filtered price: {{ sliderValue }}€</span></div>
+        </div> 
+        <table class="table table-bordered" style="margin-top:20px">
             <thead>
                 <tr>
                     <th>Image</th>
