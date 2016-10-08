@@ -37143,5 +37143,19 @@
       "price": 200,
       "id": 20
     }
+  ],
+  "carts" : [
+    {
+      "id":1,
+      "userId": 3,
+      "productId": 3,
+      "quantity": 1
+    },
+    {
+      "id":2,
+      "userId": 2,
+      "productId": 2,
+      "quantity": 3
+    }
   ]
 }
