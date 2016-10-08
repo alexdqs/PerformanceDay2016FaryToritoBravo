@@ -10,7 +10,7 @@ import { Cart } from './cart';
 @Component({
     selector: 'shopping-cart',
     template: `
-        <h1>Your shopping cart<i class="glyphicon glyphicon-shopping-cart"></i></h1>        
+        <h1>Your shopping cart <i class="glyphicon glyphicon-shopping-cart"></i></h1>        
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -28,17 +28,17 @@ import { Cart } from './cart';
                     <td>{{ product.quantity }}</td>
                     <td>{{ product.price }}</td>
                     <td>
-                       <a (click)="editCart(product)"><i class="glyphicon glyphicon-edit"></i> </a>
+                       <a (click)="addToUserCart(user,product,quantity)"><i class="glyphicon glyphicon-plus-sign"></i> </a>
                     </td>
                     <td>
-                        <i class="glyphicon glyphicon-remove clickable" (click)="deleteCart(product)" ></i>
+                        <i class="glyphicon glyphicon-remove clickable" (click)="removeItemFromCart(cart)" ></i>
                     </td>
                 </tr>
             </tbody>
         </table>
         <div>
-            <a routerLink="/shopping-cart/buy" class="btn btn-primary">Buy</a>
-            <a routerLink="/shopping-cart/cancel" class="btn btn-primary">cancel</a>
+            <a routerLink="/shopping-cart/buy" class="btn btn-primary">Confirm</a>
+            <a routerLink="/shopping-cart/cancel" class="btn btn-primary">Cancel</a>
         </div>
     `,
     styles: [`
@@ -46,7 +46,7 @@ import { Cart } from './cart';
                 cursor:pointer;
             }
         `],
-    providers: [UserService]
+    providers: [CartService, UserService, ProductService]
 })
 
 
