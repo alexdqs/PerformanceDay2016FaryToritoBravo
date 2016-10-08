@@ -36969,6 +36969,11 @@
       "completed": false
     }
   ],
+  "shit": [
+    {
+      "hola": "hola"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -36980,11 +36985,11 @@
     },
     {
       "id": 2,
-      "name": "iPhone 9",
+      "name": "iPhone 15",
       "description": "el mejor",
       "category": "phone",
       "price": 1200,
-      "image": "https://www.google.es/imgres?imgurl=http%3A%2F%2Fs3.india.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fiphone.jpg&imgrefurl=http%3A%2F%2Fwww.india.com%2Fwhatever%2Fapple-iphone-6-will-launch-on-september-9-why-is-there-no-buzz-138002%2F&docid=xY8ZNIyDj6jekM&tbnid=6FAm2AEVMFT-yM%3A&w=651&h=386&bih=776&biw=1131&ved=0ahUKEwj1-fG-2MrPAhVJXBQKHTkyBh0QMwg8KAkwCQ&iact=mrc&uact=8"
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUXFRUVFxUXFRcVFRUYFRUWFhUYFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy8lICYtLS0tLS0tLS0tLS4tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALABHgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYHAQj/xABMEAABAwIDAwcHCAcFCAMAAAABAAIDBBEFEiExQVEGBxNhcZGhIjJSgbHB0RQVQlNikuHwI3KCk7LC0hczVKLxCCREY4OjpOIWZHT/xAAaAQACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAKxEAAgIBBAAEBQUBAAAAAAAAAAECEQMEEiExEyJBURRhcaHwFTKRsdHx/9oADAMBAAIRAxEAPwDuKEIQAIQhAAhCEACEIQAIQhAAhCEACoMQ5Y0cLjGZc7xoWRNMrh1HLsPas7zu8pTTQCJji0yB2Yg2OUDVoO699TwHWvnjEOUksnktORg0DRoO2w0v3nrUEn08OXMH1FV29Afim/8A5/BuhqT/ANMf1L5TNbJ6Z70307uKOSeD6vPL+H/D1P7sfFNu5xIBtgqPutH8y+UukP5AXmf82RyFxPq3+0aD6ifuZ/Wku5x4d1PP/wBv+tfKmcpYndxUUybj7H1OecaLdTTd8X9aG840d9aacDW5/Rk9Wgdqvln5S/0nd6WyukGyR33ippkXH2PrrCuWVHO4RtkySE2EcgyOJ4C+h9RWgXx7hfKB5IjnJewkAO+k07jfbZfR/Npj5qIDG9xc+KzS4+cRYWud+3bvBG+6L5CuLRs0IQpFBCEIAEIQgAQhCABCEIAEIQgAQhCABCEIAEIQgAQkOlA2kBMvrWDffsUWSot9ElCgnEm+ifBOMr2HabdoRuQ2yXsSkJplQ07HDvTl1IlHz/8A7QdSenjZu6P+J5/oC48urc/7r1bepgHbZ7/iuUKF0S1TBCEKSD1oVr8zDb0rfD+pVK9QBYVGGhrS7pGm27TXxVcvbrxAAherxAHq+g+ZIuzPeb2exljxLWDN/KvnxfRPMv8A3MPWH/wD4JJPr6lmNXf0OsoUeorGM2nXhvUGasc7ZoPzvUuSREcbkT5qprdp14DUpg4k3g7uHxVeAL2Tgsl3Mu8KK7Jvzi3g7uHxXvzizr7lEbZK6NTbI8OJK+cI+NvUU9HUMdscD61WmNNupwjcw8KJdXXqohnHmuI9fuSmV0o4HtHwRvF8B+jLtCqRixG1ncU43GY9+Yer4Kd6FeKa9CyQheF1kxWerwlRZa5o2eUer4qHJI5+06cNyVyLI42+yXLXD6OvsTDpXu2n1DRJY2y9JUdliil0eBgSHWQ+RR3zWSssSbFvITBmBF1Dr60AbVVU+JAttfUEjxVMsiTo0wwtqy9bKE62ocPNcR61Sw1ewKU6oARGRMsRyLnxfmmjJ1OV2v7ZPvXNIqN7m5ha1yPOaDoAdhN966JzyvzSMcNlneLgsrhdYGxNHb7StWFbkc3UeWbEP5PxBjnGsgJa3MWtdck5XENbr5Ru23aQqLKtQa8I+X9au8Mz7zLhpVjyfwn5TOyEvbEHX8t5DWizSdSbDW1vWtfRQMfS1E5mZmibG4RNzF/lTMjJfdoaBZ2lnE67kilfBfNLMHtETJMkRtI573BohBcNHNvdxANhsujw17k72YeeAtc5u2xIuNQbG1weClUFA17ZHOfkLG3a0i5kNjoLkcANL7V0JuHRukiA6dofTS1HycgGovG5zRG3QXz5czTlva+h0vBxtjYmQyNEsRlD7wzf3jchADxo0ljrm1wDdrtoQoINzMni+FRxSFkU7Z2hrHCRrXNBLvObY8FJZgMHSBhq2ZbtBf0brAOcWkjXUgAOtwKnDEOtL+X9abw0RuZUco8JgpyzoKgThwJcQwtykHQbbG41XTOROKPgooHMNjci/UWkLm3KCpzsbrsd7lqsIqctHTjrB9oWTVqo8G3Q+adM61g1UX+U43J4m5V06dY/A6wZApNfi1htWWM1GJ0pYd0uC4FaDJYHcrKKZc5psZtLqdy1NFiOYbVGPLb5Jy4PY0rHpzpgqRlb1pxlaOK0+IjI8LLgOXt1Tx4gC7KDs2+5WDZ771Kmn0JLG4kjakloSTINAkCTUBSxEmeviUSSLVT3OTTmpZIeMidPXgaN19ihyOc/aURsTuibllaio9CY4kpiC7RMNls7qKkmmx1z1HlqLaHRN1NUGAkrOYtjob3/AJCqyZVDsvxYHN9F/PVABVNRigVBU4xfYdFUVWK6rLPUN9G/HpUuyzxLE771nosSLZCL7VX4hiwb1ncN6pIp5c2bITreyqScuWXOlwdCixO20pirxwWNie9ZJmJOOhaRxJBsOs2WyoOb+rqGh7JacxuGjxIXi3qapUJPhCTyQhzJ0YDl7OXxxk7QfaAfesW2QjRbbnHpnRPkhdYmOXJcbDljYLjquCsMuniVRSODqXuyNi+lPFeiU8U2rnA8ffTNewRxyNeQSHtvpbUdhIaf2B1q22U0KwbEWMgrGPdZ0sMbIxYm7m1EUhFxs8lrtqfoJaN/kEvp39DHknc572sqGOzPcWxi4Y4aCwJaRdOu5WggN+RUmUZyB0QsC8AXHC1h+bWU3lYzzXUNKW3JyhgGpte2ml8oF9ttlkX8yC4ZyihaWRvqnyTCnnj+cAyRxjdI9jow0utK5jQ17c1sw6Y2FgqflFirXQQwfKDVyskkeZ7SWaxzWgQtdKA9wu0uNwAM2m9MYdyqdDGYRBA+Mvc/K9ubziwkdl42G3Um6nlO97WtEMDMr2yAsjDSHNdcEEbOB4oRJUid3FK+UO4qTjGLvqXNc9rQWsDBlvawJN9T1qACnsihU0hI1K1sUtqan7Pesg7YtPe9NB2W8Ss+o5Rq0fGQ2uD4rdoF9gT1dWAi6wdLX5d6mCte/wA0d65zg0dtSXoWdXUWOa+m9W+C45mHnajTtWdgoHPcM9zfu7lqIOS7ctwdd1kbb6Icy1ZjBttXhxkrOVNPLEbXuOv4qI+ve3TJ4qt7ixOPZucErC5z330AA9f+ntVszEeBJPBYfk1JmjcTo4v49QstFQVljlNr8eKeEnHgScVLk0gr7Ft9t9VYUs1wXnfs7As7A0SyBo3HMewfir2eTYNg4LTCTfJkyQXCJ8Mt04So9KzS6k2VqMkqTHL2TMr7pUhKhSyXTSlQQjY8yXcobqnKcp9XWElkqh4r5TL7HDVp4FVyk6svhBbqK/lRW6BoOuiymJkOBDhu42KnYhU53AnYPdtVTLNnJcdm4LBOW6TZ0ccdsUUUuJmPyHA36tbpDJJZdmnXvTlTS55wDwHtK1uFYU1oGiZRvoJTaZUYNycaTd4JPErb4bgkTbeSEU8TW62U01bWhWxivUzTcn0Sjg8DhqxvcE180Rx3dE50R2kscWd4BsU3SYoxwtexWI5x+XTYmmCB13kakblaop9GecnBeZmI5z8SbJOWtdmsSS7eTvJ61ikuaUuJc43J1KQtcVSo5k5bpNghCEwoIQhAAvV4vUAKC9SQlXTogCrjBasOZ0DzbW7D18FT3Q1pJAaCTuA1PqASzimh4ScXaNnheCh+/YbELUUOERxjiVnuTlFXuykUtQT5pPRuAI3G5AC0stDXAa0s33b+xc3JCSlR2sOWMo3dDdTlaR2q9oa0AdSxeIsqB58E7R1xPt7E5hmJ5hlBs4fROju46qupLkuTi3RsKt7H620WfrYW6r0VJTcj7pG2y1JIc5PPN5BuuPZ+CvCWnTZbw7FkWVfRSts4DMbHr4eKtpJCPK/0UNMlNG15MMNnvPHKD4lXYAcQOtU3JlxdTsPpXPjb3K8gjtrvWvEvKjFmfmbLCNyfaVEhT4KuTMUkIkcq+qO8KXK9VlZmAuEsmWQRFfUbxxsepM1EtwVX1T3XzN7Ht324hO9JmbcHW23j2rP4hujj9TI48S2Sw2O1+PuUKKp/BT+VDDlDuBsfWqSnvttfr2BZqNV0SKZw6ck+iPaVrKaqACxUUoMpAINgBpx1W95P8lZpQHykxMOwW8s+r6PrVsYyfCKZSglciLV4pYaHXh8FFbh+I1X93EY2+nKejHqafKPcujYZgkEA8hgzb3u8px9Z2epTnrRDB6yZknqvSCMJByInLMslWG3FiY2En1Fx9y8oebmjjOUvmmcbnyzGdTvsGe1a+ea105RPDG3tq7Un2BWqv2oz5I71c+TL1PNzEBeJwDuD443DwaCqimooo5DDPDG14/5bCHDi021C6C+pJ3rK8uoLwiZvnxm9+rTMO72LNnxxq1/Zz9RoVKDcVTFDC6X0I/3bPgvRhdN6Ef7tnwVRR1UhaDYJ/p5OAXKede33PPtssfmym9Bn7tnwXvzbTegz9234Ku6d/AIE8nAI+Ij7fci2WPzdTegz9234Lz5tpvQZ+7b8FX9O/gEps7+pR8RH2+5HJzvlRhFOypkGeRozEgNcGgX10FlYclaCkD/LklOzUvGmo1Fm7dqy/OJUSCulG7ybetgVBS4jK0+S5eq0+VPFF/Jf0dfFGTxp2dBxfkIKzGHU9M5whyMklld5RaNjtfpOJFh+C7Jya5G0dAzLTxAOt5UjrOld+s86+oWHUsVzIVj54J55Dd5mybLaMja7+crozpCqpyUpM6GLG1FDr2vGoN+o+5eE3RFKd6QHalL10XUK6FVuJYLTzi00Mb+Bc0EjsdtHqVqHpMh2oaTBSaZg8R5uYiL08skR3NJ6Rn+bUd6yWJciMQZfQyDjG4fw6FdsYLhDo1VLBF9F8NVOPD5PnOp5P1DdTBLcH6t59y2lLgUr2Nsx17b2kLq2VegJPh77ZY9Z7RM/hOEPZExlrWaAfermOkttUkIKuUElRmnmlJjIiASsqWUlTQlldIolRC46BThGnGxjgqXGzRuSMzNhD9ouCo78Pl25LHwPwW0EQTjYQl+HTHWrcTl+J4ZLMwtbE8u4ZTtHgo9Jzd1M397liHW7MfU1p9666GhBCmOlS7YT10n0qMvya5C0lH5bW9JJ9Y/Uj9VuxvtWnDEkygJt9RotCSRlbnN2xJf53UVFmnsmpakXI23Cr6mo0B2JJSouhjPKycJykqwWkX3Klmqdqhsqng2bvWXxKka/CuNGkfWAKi5T14dF0dwM5tqbfneoFfXdCwyzvaxo67n/AFXK8e5UGqmzEWjboxp8XO6z4KVGWXj0M+rlHHjaXbR2WhpmBgHSM+8Pin+hj+sZ94fFcIGKt9FvcEr52b6Le4JP03H+X/p5V6R+53Xoo/rGfeHxXvRR/Ws+8FwkYsPRHcF787D0W9wUfpmP8v8A0j4R+53To4/rY/vBGWL62P7w+K4Z87D0W9wXoxYeiO5H6Xj/AC/9I+EfuWnL+JklZIWyMIuB5w3NAWfhwzNf9LGLNJ1cNSNg271GrJM0hIAsfgm+gXXxxUIKK9EdLHBxilZ03maxoU00tG97f0lnsIIILgLOAI0vlt3LrT64cV8rsY9pDmkgtIII2gg3BC6fyU5zWWbFXs1GnSgGx/XA1B6xp2LNmhJO4nR0+WNbZnYaasB0S2S3JVLQ4tSvbngLXA/SDsw9qUMQAVW/3NXh3ykXolSGy3vrvVSyvHFONnClZCPCoumzpzp1UxVI2JfTJ95W8RZ9KF6HBQWTaJbZlO4R4yaglRRKh0pU7hdjH8y8JTTSlF9kWTQ0QltTRevBIkHomNcnDIoLZQV6+UJ7EcCU6dNSVKhS1I4qHNVpXMeOMmTVKiy1YVdPVKvmqiqZZDTHEi0mqwNVVVlTu3KNJUbyVW1OJNHm+UfDvVUptlsUkPzSHvVDjXKmGm0Lsz9zGnX9o7k7I58ly92Uei3TvO1VHKbknG5nSRaHeOvijHGN+YjLKe1uCMVjuOzVT80h0HmsHmt+J61WXSpoixxa4WIT0FLmF7+C6UV6I4c5Nu5Ee6LqYMP+14filDDvteH4ptrFtEK69BU4YZ9rw/FKGFH0v8v4qdrC0QLr0Kw+aT6X+X8U4zCPt/5fxU0wIEMdyrGGFTabB/teH4qzgwn7Xh+KV2WRiipZTJVFgxqX5GCwGrnbmjrVzV0OSMuv1bOKmYeOjw9pbo6eeRpO/LGWMA7y4rPkk4mrHjUnRXNw8QG1M94I2vBIuezYVZRcp6qLSRrZBx813eNPBWUNE1rLnQBUlUTI64HkjZ19axObb5OrjxRSqJqsO5QNk2hzDwNj4hW8eIDisFA8gqxjqCSEljuHHJuIq7rUuOtWUp2SSkMY1znHYGgk+C1mE8hajJmknyP3M88ftH4K2ClLpGXK4Q/cyRHWXUqGdVlRhFTD57C4ekzyh6wNQmYKk+Ka2nyIlGS8rNIyUJYlvoFRtrNco1PUrKOQMGurju4J1OxJQonZrJBemOn4ntS4zfZqnsSqFFyZc4pl8ybE3FK5DqI6+S3Wo76pJmF/NNiqauqy3SRpb9oC4VcptFkYWT5Kngb+1RJai/wVf8oDtjgewq5wPApaghzvJj9M7T+px7UsXKTpEzcYK2Vkkw7EinpppzaGNzvtWs0drjoui0nJqmjsejDjxf5R7jorZrQBYAAcAr1p2+2ZZaxL9q/kx2D8hmWzVR6R3oAkMbfs1JUXFObpp1gkt9l+o9Thr33W9QrfBhVUZvicqd2clm5EVg06MO62vb7yFXYlgdVTszSxlrDpe4cOw2Oi7WmqmnbI0se0Oa4WIOwgpHpo+hfHXzvlHyVyzpADnAtrY+HxWfp6jKLLo3PDhLaWd8TCS3LG8X2gOuLX32y7VzFXYm1FWZs+1zbXTPo3DebnCWU0Mk7ZHOdHG5zzJILue0E+SwgAXJ0spVHzeYNMHBkbwdl+mkBF9jhc271h8K54o2QRxyU7y5jGsJa5uU5RluAdRsUuPnkhF8lNIDt1c0AnrsCtCSrsyvdZy2rikbPJE1xOSSRgJsLhjiLnr0S+im9L2a9iedIHyPkvZz3uebA7XuLjbvSy/wC2fFQWIjRRzONgdb5bXaNdABrxJAHFWuHYRVSNzt83K1wJextw9xYy2YjUuFgONlEp3WNw8gnhdXFFVPDBGJXhjbENuQBZwcLD9YA9qRyLYxY9Lhc8Ti1xBsbXBHGw02i+6+1OsztNiSnenc7zpHHbtJO3alXbxVbfsXRVdjeKPvE4dntCepIHPoqNrQXONROA0akkzsAAHrUOuPkO/O9aHkcy7MO6qyQ/+VB8VVk83H0Lcb2u/r/Q/iuB1UbGGaMsjc7LqRcm17EA6DQ9yYqMNAGgXbsYwxlRGYn7DYgja0jYQsTUciqm+Vro3N3OJLTbrFlmy6dp+Xk16bXRa87pnOTR6rovJLkJE6JstQHZnG7WA5QG7s2l7narnAuRMUREkp6R4NwLWY31fS9a1YCsw6euZFGq127y4/5IuH4bFA3LExrB1DU9p2lS0IWxKjmtt8sFmeVHJ10v6SE5X727n29hWmQllFSVMaE3B2jlHTyQ6Flj9Lcb9hTkNc87Gn2ldAxfBI6geULOGx42jt4hYzEaCem2gFu54Fx6+B7VjnilH6HTxaiGT6kqkp3O1kOUbbfSPbwVoyYAWaNFmqetO+5PsVhFUX2kKYNETi/U9c0gaa9SjOqrdXU4aHsKcmLDsJB6iqyrDxseD2hK+B4qxyorG7w5p6tQq2bFWnQh5/ZSZJ5RuapOEYbNVPDAABtc61w0ce3qVfLdIt4irfRZ8i8CZUOMz2ERtNgD9N3WOAXR2tA0Cj4fRthjbGzY0W6zxJ6ypK344KCo4+bK8krBCEKwqBCEIAEIQgDgPP8As/3m/GGL+KRcbXbf9oBn6YH/AJLPAyLiKiI0vQ9BT0U1tyZS2BTZCLGGqPojvThqj6I8VFjSqWPOSXHK1oudCd4GgHWQl3MsUUTIqk+iPFWVPWkfRHiq1lD5WZrrtcLt0I2EtIIOw3aU4yVVytFsGmWwxI+iPFBxM+iPFVZmTb50tstpFnPiJcCLDVbjkGbsoB/9uTwqac+5ctdOum82bswov/0yH/uxH3I54sh9P6M78hCFoMIIQhAAhCEACEIQAJL2AgggEHaDsSkIAzGLclWuu6A5T6B809h3LJVtLLE7K8Fp69h7DsK6om5YWu0cAe0AqmWFPrg049TKPEuTl1XKOKrJHu4ryeYrV8mOSfSBs1RcNOrY9hI4uO4dSzKLm+DoTnHGrZWYBgMlSb6tYPOf7m8Suj4fQRwsDIxYeJPEneU/FEGgNaAANABoAlrXjxKH1ObmzyyP5AhCFYUAhCEACEIQAIQhAHI+fjC3PY2Ro+gW362knX1OPcvnkr7UxnDGVMTonjQ7NL2PH88VwblbzPzNeXQEZSdjr29TwD3GyXobs5IE7Gti3m1q97ox+034qTDzZVG01EDe1x9yG0SosxzSvY6x8QIABBFjcHUXB3WI1AW4ZzaSH/jaT75Kd/s0f/jaT7xS9eg9fMw1NiL7izQGgEZRe2pJvckm9ykOmW8/szf/AI6l7z8Uh3NdJt+W03efihu/+DRSj0/ujBmdIdOttLzZSD/iYj+q0kd901/ZtL9cPUz/ANlFx/ETcvxoxZlXb+aPB3/7qSNGF0juokF/80feqfkvzWDO10maWxuAG2Z6zsHrPqXb8BwhtOy1hmNr22AcBx1ub70VufyFctqfPJaoQhWlAIQhAAhCEACEIQAIQhAAhCEAf//Z"
     },
     {
       "id": 3,
@@ -37030,112 +37035,98 @@
       "image": "http://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-select-2016?wid=500&hei=702&fmt=png-alpha&qlt=95&.v=1471651056976",
       "price": 900,
       "id": 8
-    }
-    ,
+    },
     {
       "name": "Teclado colores",
       "description": "Razer BlackWidow Chroma - Teclado mecánico gaming (retroiluminación RGB, programable, con 5 teclas macro) - QWERTY español",
       "category": "devices",
       "price": 142,
       "id": 8
-    }
-    ,
+    },
     {
       "name": "Lenovo Ideapad",
       "description": "Lenovo Ideapad 300-15ISK - Portátil de 15.6 (Intel Core i7-6500U, memoria RAM de 8 GB, HDD de 1 TB, Intel HD Graphics 520, Windows 10 Home), negro brillante - Teclado QWERTY Español",
       "category": "laptops",
       "price": 599,
       "id": 8
-    }
-    ,
+    },
     {
       "name": "ASUS Z220ICUK-GC016X",
       "description": "Ordenador de sobremesa todo en uno de 21.5- ,Intel #2292",
       "category": "laptop",
       "price": 798,
       "id": 9
-    }
-    ,
+    },
     {
       "name": "Benq RL2460HT",
       "description": " Monitor de 24 (1920 x 1080p, LED, TN, 250 cd/m2), color negro",
       "category": "monitors",
       "price": 179,
       "id": 10
-    }
-    ,
+    },
     {
       "name": "X-Loop Aurora",
       "description": "Gafas de Sol Polarizadas - Deporte - Esqui - Ciclismo - UV400 (UVA y UVB)",
       "category": "sunglasses",
       "price": 50,
-      "id":11 
-    }
-    ,
+      "id": 11
+    },
     {
       "name": "ASPIRADOR NASAL PREMIUM",
       "description": "ASPIRADOR NASAL PREMIUM para Bebés: Silicón suave, boquilla que no irrita, lavable y reusable. No necesita filtro, Aspirador Nasal de Hospital para Congestión Nasal en los Bebés",
       "category": "medicine",
       "price": 13,
       "id": 12
-    }
-    ,
+    },
     {
       "name": "Riñonera,EOTW",
       "description": "Riñonera,EOTW Cinturón deportivo Ultra-delgado y ligero,elástico & ajustable, Compatible con iPhone 6s/6 plus/5s/SE, Samsung Galaxy S6/edge, pegado al cuerpo para correr,viaje,senderismo,golf, acampada,ciclismo",
       "category": "sports",
       "price": 22,
       "id": 13
-    }
-    ,
+    },
     {
       "name": "EOTW Riñonera",
       "description": "EOTW Riñoneras para llevar pasaporte, cargador, gafas de sol y teléfonos hasta 6 pulgadas ,Cinturón deportivo Perfecto para viajar, comprar, encalada, caminar con el perro, correr, ciclismo.",
       "category": "sports",
       "price": 12,
       "id": 14
-    }
-    ,
+    },
     {
       "name": "NatureFun acampa",
       "description": "NatureFun acampa Hamaca Accesorios Suspensión del sistema Hamaca árbol correas 2000+ libras de alta resistencia con 36 Loops, 100% poliéster, paquete de 2-n estiramiento",
       "category": "sports",
       "price": 17,
       "id": 15
-    }
-    ,
+    },
     {
       "name": "Duduma Lente",
       "description": "Duduma Lente Antirreflejante Completo Aviador UV400 Gafas de Sol con Diseño de Moda Retro Para Hombre y Para Mujer",
       "category": "sunglasses",
       "price": 15,
       "id": 16
-    }
-    ,
+    },
     {
       "name": "EAGET V90 de doble uso Carcasa",
       "description": "EAGET V90 de doble uso Carcasa de metal de alta velocidad USB 3.0 OTG Flash Drive con Diseño Llavero para Smartphones / tabletas / PC",
       "category": "devices",
       "price": 9,
-      "id":17 
-    }
-    ,
+      "id": 17
+    },
     {
       "name": "WinnerGear",
       "description": "WinnerGear - MONTAR Soporte Universal salpicadero del parabrisas de Coche para Teléfono Móvil",
       "category": "cars",
       "price": 17,
       "id": 18
-    }
-    ,
+    },
     {
       "name": "Zookki Accesorio para GoPro",
       "description": "Zookki Accesorio para GoPro Hero 5 4 3+ 3 2 1 Black Silver Kit de Accesorios para GoPro 4 3+ 3 2 1 Negro Plata SJ4000 SJ5000 SJ6000, Juego de Accesorios de la Cámara para GoPro Hero4 Hero3+ Hero3 Hero2",
       "category": "GoPro",
       "price": 12,
       "id": 19
-    }
-    ,
+    },
     {
       "name": "Ecandy 3 x 3 m ",
       "description": "Ecandy 3 x 3 m 300 LED enlazable diseño de cuerdas Cortinas de hadas de luz ideal para la boda de interior al aire libre del partido del hogar jardín de la Navidad (blanco cálido) [Clase de eficiencia ",

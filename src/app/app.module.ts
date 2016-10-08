@@ -17,6 +17,7 @@ import { ProductFormComponent } from './product-form.component';
 import { NotFoundComponent } from './not-found.component';
 import { SpinnerComponent } from './spinner.component';
 import { PostsComponent } from './posts.component';
+import { PricePipe } from './pricePipe';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { PostsComponent } from './posts.component';
     NotFoundComponent,
     PostsComponent,
     SpinnerComponent,
-    routedComponents
+    routedComponents,
+    PricePipe
   ],
   providers: [
     UserService,
